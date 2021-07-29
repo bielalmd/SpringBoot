@@ -11,6 +11,7 @@ public class Atividade2 {
 	@GetMapping
 	public String atividade2() {
 		return " Meus objetivos para essa semana é focar no processo de aprendizagem e em persistir no conteudo!";
+		
 	}
 
 }
