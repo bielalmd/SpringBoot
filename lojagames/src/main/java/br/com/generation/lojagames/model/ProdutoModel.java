@@ -22,7 +22,7 @@ public class ProdutoModel {
 	private String descricao;
 
 	@ManyToOne
-	@JsonIgnoreProperties("produto")
+	@JsonIgnoreProperties("categoria")
 	private CategoriaModel produto;
 
 	public long getId() {

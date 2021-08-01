@@ -1,10 +1,10 @@
-package br.org.generation.helloworld;
+package br.com.generation.helloword;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HelloworldApplicationTests {
+class HellowordApplicationTests {
 
 	@Test
 	void contextLoads() {
