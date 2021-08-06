@@ -25,6 +25,26 @@ public class ProdutoModel {
 	@JsonIgnoreProperties("categoria")
 	private CategoriaModel produto;
 
+	@ManyToOne
+	@JsonIgnoreProperties("usuario")
+	private Usuario usuario;
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+
 	public long getId() {
 		return id;
 	}
